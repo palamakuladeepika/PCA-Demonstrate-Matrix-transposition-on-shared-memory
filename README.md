@@ -17,11 +17,11 @@ Step 5 : Inroduce the main function, in the main method set up the device ,array
 Step 6 : Save and execute the program.
 
 ### Program:
-''''
+~~~
 Developed By: Palamakula Deepika
 Reg. No.: 212221240035
-''''
-''''
+~~~
+~~~
 #include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -289,7 +289,7 @@ int main(int argc, char **argv)
     CHECK(cudaDeviceReset());
     return EXIT_SUCCESS;
 }
-''''
+~~~
 ## Output:
 ~~~
 root@MidPC:/home/student/Desktop# nvcc test.cu
